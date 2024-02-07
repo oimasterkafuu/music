@@ -1,0 +1,31 @@
+{
+    "name": "vue-template",
+    "version": "0.0.0",
+    "description": "The vue template that oimasterkafuu is using",
+    "main": "index.js",
+    "repository": "https://github.com/oimasterkafuu/vue-template.git",
+    "author": "oimasterkafuu <oimasterfake@icloud.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "format": "prettier --write \"**/*.{js,vue,html,css,scss,json,md}\""
+    },
+    "dependencies": {
+        "vue": "^3.3.4",
+        "vue-router": "^4.2.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.4.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "prettier": "^3.1.0",
+        "unplugin-vue-components": "^0.26.0",
+        "vite": "^4.4.11"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
