@@ -4,20 +4,20 @@ const routes = [
     {
         path: '/login',
         name: 'login',
-        component: () => import('../views/login.vue')
+        component: () => import('../views/Login.vue')
     },
     {
         path: '/',
         name: 'favorites',
         component: () => {
-            return import('../views/favorites.vue');
+            return import('../views/Favorites.vue');
         }
     },
     {
         path: '/track/:id',
         name: 'track',
         component: () => {
-            return import('../views/track-player.vue');
+            return import('../views/TrackPlayer.vue');
         }
     }
 ];

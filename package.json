@@ -1,6 +1,6 @@
 {
     "name": "vue-template",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "The vue template that oimasterkafuu is using",
     "main": "index.js",
     "repository": "https://github.com/oimasterkafuu/vue-template.git",
