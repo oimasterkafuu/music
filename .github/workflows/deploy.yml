@@ -120,7 +120,7 @@ jobs:
 
             `dist.zip` 文件的 SHA256 校验和为 `${{ env.sha256 }}`。您可以使用它来验证文件的完整性 :lock:
 
-            或者，您可以前往[在线演示](https://oimaster.top/)查看最新的生产版本 :rocket:
+            或者，您可以前往[在线演示](https://m.oimaster.top/)查看最新的生产版本 :rocket:
 
             祝您使用愉快！ :kissing_heart:
           draft: false

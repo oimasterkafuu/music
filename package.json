@@ -1,6 +1,6 @@
 {
     "name": "vue-template",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "The vue template that oimasterkafuu is using",
     "main": "index.js",
     "repository": "https://github.com/oimasterkafuu/vue-template.git",
@@ -13,6 +13,10 @@
         "format": "prettier --write \"**/*.{js,vue,html,css,scss,json,md}\""
     },
     "dependencies": {
+        "autoprefixer": "^10.4.17",
+        "postcss": "^8.4.34",
+        "tailwindcss": "^3.4.1",
+        "v-lazy-image": "^2.1.1",
         "vue": "^3.3.4",
         "vue-router": "^4.2.5"
     },
